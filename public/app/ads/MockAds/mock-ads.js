@@ -1,0 +1,24 @@
+"use strict";
+var ad_vehicle_1 = require('../Vehicles/ad_vehicle');
+var ad_mobTab_1 = require('../Mobile&Tablets/ad_mobTab');
+var ad_homeapp_1 = require('../HomeAppliances/ad_homeapp');
+var v1 = new ad_vehicle_1.Vehicle("Vitz 2006 for Sale!", "QMZ", 3475929, 8000000, "Karachi", "img/c4.png", "vehicle", "Vitz", 2006, 90000, "In new Condition!");
+var v2 = new ad_vehicle_1.Vehicle("Silver Toyota 2003", "Amjad", 13278291, 650000, "Lahore", "img/c1.png", "vehicle", "Toyota", 2004, 800000, "Excellent Working Condition! Only serious buyers contact please.");
+var v3 = new ad_vehicle_1.Vehicle("Civic 2013 Brand New Condition", "Mahtab", 37892611, 1050000, "Faislabad", "img/c2.png", "vehicle", "Honda", 2013, 50000, "Brand new condition. Price is negotiable.");
+var v4 = new ad_vehicle_1.Vehicle("Classic Red Nissan ", "Raheel", 13278291, 650000, "Lahore", "img/c3.png", "vehicle", "Toyota", 2004, 800000, "Urgent for sale. Only serious buyers contact please.");
+var v5 = new ad_vehicle_1.Vehicle("Cab 10-Seater", "Arslan", 13278291, 650000, "Karachi", "img/c5.png", "vehicle", "Toyota", 2004, 800000, "Excellent Condition! Urgent for sale. Only serious buyers contact please. ");
+var mt1 = new ad_mobTab_1.Mob_Tab("Samsung Galaxy S1", "Arslan", 13278291, 15000, "Karachi", "img/m1.png", "Mobile&Tablets", "Samsung", "8 months warrenty", "With Box, ear-phones, charger, 8GB-memory card", "Price Negotiable. In new Condition!");
+var mt2 = new ad_mobTab_1.Mob_Tab("Noir i2", "Sajid", 13278291, 7000, "Lahore", "img/m2.png", "Mobile&Tablets", "Q-Mobile", "3 months warrenty", "With Box, ear-phones and charger", "In excellent Condition! Only serious buyers contact please.");
+var mt3 = new ad_mobTab_1.Mob_Tab("Samsung Tablet", "Amjad", 13278291, 17000, "Faisalabad", "img/m3.png", "Mobile&Tablets", "Samsung", "No warrenty", "With Box and charger", "Urgent for Sale.");
+var mt4 = new ad_mobTab_1.Mob_Tab("Sony Noir-i5 ", "Raheel", 13278291, 12000, "Abbotabad", "img/m4.png", "Mobile&Tablets", "Sony Ericcson", "12 months warrenty", "With complete accessories!", "Only 3 months used! In brand new Condition!");
+var mt5 = new ad_mobTab_1.Mob_Tab("Q-Mobile qN-174", "Arslan", 13278291, 5000, "Karachi", "img/m5.png", "Mobile&Tablets", "Q-Mobile", "No warrenty", "Box, ear-phones and charger available", "In new Condition!");
+var h1 = new ad_homeapp_1.Home_Applicances("Microwave Oven", "Arslan", 13278291, 1500, "Karachi", "img/a1.png", "HomeApps", "Microwave", "In Excellent working conditions!");
+var h2 = new ad_homeapp_1.Home_Applicances("5-in-1 Cooking and Baking Oven", "Sajid", 13278291, 3000, "Lahore", "img/a2.png", "HomeApps", "Oven", "Brand New Oven, only used for 2 years. Price Negotiable.");
+var h3 = new ad_homeapp_1.Home_Applicances("Set of Two Washing Machines", "Amjad", 13278291, 17000, "Faisalabad", "img/a3.png", "HomeApps", "Washing Machine", "Available for whole-Sale.");
+var h4 = new ad_homeapp_1.Home_Applicances("King Size Bed", "Raheel", 13278291, 12000, "Abbotabad", "img/a4.png", "HomeApps", "Furniture", "Excellent conditions!");
+var h5 = new ad_homeapp_1.Home_Applicances("Food Factory-Complete Set", "Arslan", 13278291, 2500, "Karachi", "img/a5.png", "HomeApps", "Sofa", "Un-used Pack. Available for Sale.");
+exports.ad_arr = [v1, v2, v3, v4, v5, mt1, mt2, mt3, mt4, mt5, h1, h2, h3, h4, h5];
+exports.veh_ad_arr = [v1, v2, v3, v4, v5];
+exports.mob_ad_arr = [mt1, mt2, mt3, mt4, mt5];
+exports.homeapp_ad_arr = [h1, h2, h3, h4, h5];
+//# sourceMappingURL=mock-ads.js.map
